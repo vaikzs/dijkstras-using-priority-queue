@@ -1,5 +1,3 @@
-package algorithm.Dijkstra;
-
 import java.util.Comparator;
 
 public class Node implements Comparator<Node> {

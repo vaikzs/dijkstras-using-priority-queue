@@ -1,11 +1,9 @@
-package algorithm.Dijkstra;
-
 /*
  * 
  * 
- * Authors 
+ * Author 
  * Vaikunth Sridharan
- * Venkadesan Gandhirajan
+ * 
  * 
  * 
  * 
@@ -99,20 +97,19 @@ class ShortestPathAlgorithm {
 		 * node by default
 		 */
 
-		int sourceNode;
-		if (args.length == 1) {
-			sourceNode = Integer.parseInt(args[0]);
-		} else
-			sourceNode = 0;
+		int sourceNode = 0;
 		double startTime = System.currentTimeMillis();
 		// Read my input file
 		BufferedReader bufferReader = null;
 		try {
-			if(args.length >0)
-			bufferReader = new BufferedReader(new FileReader(args[0]));
+			if(args.length >0){
+				sourceNode = Integer.parseInt(args[0]);
+				bufferReader = new BufferedReader(new FileReader(args[1]));
+			
+			}
 			else
 				{
-				System.out.println("OOPS!\nERROR : File name not provided as runtime argument\n\nUSAGE : java ShortestPathAlgorithm <Inputs/FileName.txt>\n\nNOTE  : Explore the input text files under Inputs folder");
+				System.out.println("OOPS!\nERROR : File name not provided as runtime argument\n\nUSAGE : java ShortestPathAlgorithm <sourcenodenumber> <Inputs/FileName.txt>\n\nNOTE  : Explore the input text files under Inputs folder and the source node argument should always be a number");
 				
 				}
 			
@@ -191,6 +188,10 @@ class ShortestPathAlgorithm {
 		catch (NullPointerException e) {
 			
 		}
+		catch (NumberFormatException e) {
+			System.out.println("OOPS!\nERROR : File name not provided as runtime argument\n\nUSAGE : java ShortestPathAlgorithm <sourcenodenumber> <Inputs/FileName.txt>\n\nNOTE  : Explore the input text files under Inputs folder and the source node argument should always be a number");
+		}
 
 	}
 }
+
