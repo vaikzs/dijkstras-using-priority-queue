@@ -3,9 +3,9 @@ package algorithm.Dijkstra;
 /*
  * 
  * 
- * Authors 
+ * Author
  * Vaikunth Sridharan
- * Venkadesan Gandhirajan
+ * 
  * 
  * 
  * 
