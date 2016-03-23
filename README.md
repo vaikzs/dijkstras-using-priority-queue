@@ -6,7 +6,7 @@ Implementation of Dijkstra's Algorithm using Priority Queue Java API that can co
 ## Hardware Specifications
 + i7 3rd Generation Quad Core Processor 
 + 16 Gb of RAM 
-## Input data format Requirements
+## Input data format requirements
 n
 
 v1    v2  ew1,2
