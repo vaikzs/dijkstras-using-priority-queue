@@ -1,3 +1,4 @@
+# Dijkstra's algorithm
 ## Synopsis
 Implementation of Dijkstra's Algorithm using Priority Queue Java API that can compute the Shortest path from a given source node. 
 ## Software Specifications
