@@ -8,11 +8,13 @@ Implementation of Dijkstra's Algorithm using Priority Queue Java API that can co
 + 16 Gb of RAM 
 ## Input Dataset format Requirements
 n
-v 1
-v 2 ew 12
-v 3
+
+v1    v2  ew1,2
+
 ...
-v 9 ew 39
+
+v3    v9  ew3,9
+
 ...
 ## How to run ? 
 Create a new folder in your system. 
