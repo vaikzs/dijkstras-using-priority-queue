@@ -43,7 +43,7 @@ javac ShortestPathAlgorithm.java
 ~~~~sh 
 java ShortestPathAlgorithm 0 Inputs/input16.txt
 ~~~~
-## Average Running time
+## Average Running time to Estimate Time Complexity
 Number Of Vertices | Average Running time (ns) | O (log n) | Running time (ns) Instance 1 | Running time (ns) Instance 2
 -------------------|-------------------|-------------------|-------------------|-------------------
 6|0.03333|0.025912|0.033333 | 0.03333
