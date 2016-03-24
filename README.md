@@ -52,6 +52,7 @@ Number Of Vertices | Average Running time (ns) | O (log n) | Running time (ns) I
 16 |0.08333|0.10033|0.083333|0.08333 
 20 |0.1|0.13010|0.083333|0.1 
 
+
 ![Number of vertices vs Time (ms)](https://bytebucket.org/vaikunthsridharan/dijkstras-shortest-path-algorithm/raw/26f3f4786785ad3c9be3ce359852d55f20eff15a/images/Untitled%20drawing.png)
 
 ## Graph Plot Credits
