@@ -44,7 +44,7 @@ javac ShortestPathAlgorithm.java
 java ShortestPathAlgorithm 0 Inputs/input16.txt
 ~~~~
 ## Average Running time
-![Number of vertices vs Time (ms)]()
+![Number of vertices vs Time (ms)](https://bytebucket.org/vaikunthsridharan/dijkstras-shortest-path-algorithm/raw/5f3d93c6d8d8ce2ed0a8d8fb14eb1c9680d77388/images/Untitled%20drawing.png)
 
 
 ##### Copyright © 2015 Vaikunth Sridharan
