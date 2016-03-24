@@ -43,7 +43,7 @@ javac ShortestPathAlgorithm.java
 ~~~~sh 
 java ShortestPathAlgorithm 0 Inputs/input16.txt
 ~~~~
-## Average Running time to Estimate Time Complexity (Number of vertices vs Time (ns))
+## Average Running time to Estimate Time Complexity 
 Number Of Vertices | Average Running time (ns) | O (log n) | Running time (ns) Instance 1 | Running time (ns) Instance 2
 -------------------|-------------------|-------------------|-------------------|-------------------
 6|0.03333|0.025912|0.033333 | 0.03333
@@ -52,7 +52,7 @@ Number Of Vertices | Average Running time (ns) | O (log n) | Running time (ns) I
 16 |0.08333|0.10033|0.083333|0.08333 
 20 |0.1|0.13010|0.083333|0.1 
 
-## Graph Plot
+## Graph Plot (Number of vertices vs Time (ns))
 ![Number of vertices vs Time (ms)](https://bytebucket.org/vaikunthsridharan/dijkstras-shortest-path-algorithm/raw/26f3f4786785ad3c9be3ce359852d55f20eff15a/images/Untitled%20drawing.png)
 
 ## Tabulation & Graph Plot Credits
