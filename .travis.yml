@@ -1,6 +1,10 @@
 language: java
-jdk:
-  - oraclejdk8
-  - oraclejdk7
-  - openjdk7
-  - openjdk6
+java:
+ - "1.7"
+ - "1.6"
+
+addons:
+  apt:
+    packages:
+      - oracle-java8-set-default  # install Java8 as required by vnu.jar
+
